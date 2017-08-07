@@ -34,11 +34,6 @@ class WpApiCategoryDefaultWidgetsPlugin
 
 		$data['acf']['widgets'] = [
 			[
-				'acf_fc_layout' => 'heading',
-				'text' => $category_name,
-				'position' => 'center',
-			],
-			[
 				'acf_fc_layout' => 'grid',
 				'limit' => '20',
 				'lists'=> [
